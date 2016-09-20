@@ -11,14 +11,3 @@ function worpen_logo() {
 function worpen_footer() {
   print "<p>Worpen - 2016</p> <a href=\"https://worpen.github.io\" target=\"_blank\">Project Worpen</a>";
 }
-
-/* 
-----------------------------------------
-Do not change the codes below, please! 
-----------------------------------------
-*/
-
-function worpen_logoff() {
-  session_destroy();
-  header("Location: login.php");
-}
