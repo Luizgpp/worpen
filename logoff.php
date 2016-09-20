@@ -1,6 +1,5 @@
 <?php
 session_start();
-
-include 'back/functions.php';
-worpen_logoff();
+session_destroy();
+header("Location: login.php");
 ?>
